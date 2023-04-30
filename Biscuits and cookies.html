@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>Apna Super Bazaar</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="popup-box.css">
+</head>
+
+<body>
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="logo" alt="" width="220px" height="110px"></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item "><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../about.html">About Us</a></li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link ">Shop</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../login.html">Login / Signup</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <li class="side-menu">
+                    <a href="cart.html">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="badge"></span>
+                        <p>My Cart</p>
+                    </a>
+                </li>
+                <!-- End Atribute Navigation -->
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+
+
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>BISCUITS & COOKIES</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Shop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End All Title Box -->
+
+    <!-- Start Shop Page  -->
+    <div class="shop-box-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9 col-sm-12 col-xs-12 shop-content-right">
+                    <p><a style="margin-left:0px;margin-bottom:35px; font-weight:bolder; font-size:20px" class="btn hvr-hover" href="s&m.html">Back</a></p>
+                    <div class="right-product-box">
+                    </div>
+                </div>
+
+                <div class="product-categorie-box">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/dark.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sunfeast Dark Fantasy Biscuits - Cookies - Choco Fills, 300 g</h4>
+                                            <h5> ₹ 82</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box">
+                                    <h1> Sunfeast Dark Fantasy Biscuits - Cookies - Choco Fills, 300 g</h1>
+                                    <h5> <del>₹ 100</del> ₹ 82</h5>
+                                    <h3>Indulge your senses with the heavenly taste of Sunfeast Dark Fantasy Choco Fills.</h3>
+                                    <a class="close" onclick="pop()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/burbon.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop1()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Britannia Bourbon Chocolate Cream Biscuits, 150 g</h4>
+                                            <h5> ₹ 25</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box1">
+                                    <h1>Britannia Bourbon Chocolate Cream Biscuits, 150 g</h1>
+                                    <h5> <del>₹ 30</del> ₹ 25</h5>
+                                    <h3>Britannia Bourbon - The Original Choco Creme sandwich biscuits are a delightful combination of smooth choco creme and crunchy choco-biscuits topped with sparkling sugar crystals. Every bite of these delicious, chocolaty
+                                        and indulgent cookies entices you to have more and more. Britannia Bourbon fuels every BFF's ever-growing hunger for fun and fulfilling moments. Made with love, since 1955.</h3>
+                                    <a class="close" onclick="pop1()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/secret.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop2()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Open Secret Choco Almond Nutty Cookies - Box of 2 Cookies, 25 g</h4>
+                                            <h5> ₹ 35</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box2">
+                                    <h1>Open Secret Choco Almond Nutty Cookies - Box of 2 Cookies, 25 g</h1>
+                                    <h5> ₹ 35</h5>
+                                    <h3>With Almond as the main ingredient, our Choco Almond Nutty Cookies are made with 40-50% nuts. Packed with protein, full of fibre and no added maida make Open Secret Cookies a perfect tiffin snack. Our cookies are healthy
+                                        and tasty, which will make you go nuts!</h3>
+                                    <a class="close" onclick="pop2()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/oreo.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop3()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Cadbury Oreo Dipped Cookie</h4>
+                                            <h5> ₹ 58</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box3">
+                                    <h1>Cadbury Oreo Dipped Cookie, 150 g</h1>
+                                    <h5> <del>₹ 60</del>₹ 58</h5>
+                                    <h3>Here is a special treat for all Oreo fans! Your favourite Oreo cookies is now dipped in smooth, chocolaty Cadbury. Indulge in the taste of this amazing combination that is as crunchy as its chocolaty. Enjoy the best
+                                        of both the worlds and experience the crunchy, chocolaty delight of Oreo dipped in Cadbury chocolate. It is the perfect dipped cookie for sharing with family and friends. Oreo cookies are dipped in smooth chocolaty
+                                        cadbury that is a delight to your taste buds. Surprise your loved ones with Oreo dipped chocolate cookies.</h3>
+                                    <a class="close" onclick="pop3()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/sunfeast.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop4()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sunfeast Farmlite Digestive High Fibre Biscuits, 1 Kg</h4>
+                                            <h5> ₹ 138</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box4">
+                                    <h1>Sunfeast Farmlite Digestive High Fibre Biscuits, 1 Kg</h1>
+                                    <h5> <del>₹ 140</del>₹ 138</h5>
+                                    <h3>Farmlite Digestive High Fibre is a wholesome snack with the goodness of oats, Jowar, Corn, Wheat and Ragi that takes care of all your dietary requirements with great taste. Helps you stay active all day long. It is
+                                        made from the high quality Aashirvaad Atta. It has no trans fat and no maida. The digestive biscuits are part of Sunfeast Farmlite range which promises No Maida, No Cholesterol, No Trans Fat and are made from Aashirvaad
+                                        Atta.
+                                    </h3>
+                                    <a class="close" onclick="pop4()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/mom.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop5()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                  
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sunfeast Mom's Magic Cookies - Cashew & Almond</h4>
+                                            <h5> ₹ 84</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box5">
+                                    <h1> Sunfeast Mom's Magic Cookies - Cashew & Almond, 600 g Pouch</h1>
+                                    <h5> ₹ 84</h5>
+                                    <h3>The delicately balanced flavour of the Sunfeast Mom's Magic Cashew & Almond Cookies will get you addicted. Their crispy texture ensures you relish every bit of it. Sprinkled with cashew and almond flakes, these cookies
+                                        are filling and healthy. They are perfect to be served along with evening tea. Also, you can carry them when you are out and about to relieve those hunger pangs.</h3>
+                                    <a class="close" onclick="pop5()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/waffy.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop6()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Dukes Waffy Choco Roll</h4>
+                                            <h5> ₹ 75</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box6">
+                                    <h1>Dukes Waffy Choco Roll</h1>
+                                    <h5> ₹ 75</h5>
+                                    <h3>Like the feel of biscuits melting in the mouth? Crispy, crunchy, the sound and the accompanying sounds just heighten the effect and your palate is clamouring for more. And what do we do? Under the given circumstances
+                                        with your tongue tickling, you are salivating and stomach growling, we give in! We surrender to the zesty, tasty‚ Dukes‚ Wafers.The wafery layers neatly laden with light, flavoured cream just works up the magic
+                                        and notwithstanding the flavours it comes in, orange, chocolate, orange, vanilla, strawberry and pineapple, you know you want more! Crunchy wafers with layers of deliciously creamy fillings to make every bite a
+                                        true delight.</h3>
+                                    <a class="close" onclick="pop6()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/max1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop7()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>RiteBite Max Protein 7 Grain Breakfast Cookie - Oats & Raisins, Soft & Chewy</h4>
+                                            <h5> ₹ 38</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box7">
+                                    <h1> RiteBite Max Protein 7 Grain Breakfast Cookie - Oats & Raisins, Soft & Chewy</h1>
+                                    <h5> <del>₹ 40</del>₹ 38</h5>
+                                    <h3>Clean Indulgence: Indulge in our Max Protein Oats & Raisins cookies while meeting your diet goals. Each bite only takes you towards your goal. These delicious protein cookies have the right amount of carbs, protein
+                                        and a whole lot of flavour. Committed To Nutrition: Committed to your health and taste buds, we at Max protein ensure nutrition in every bite. Our Protein cookies have 10 gm Protein that equals 2 cups of dal, 4
+                                        gm Fibre that equals 1 apple, 300 mg Calcium that equals 1 glass of milk. It can’t get better than this. Goodness Of Grains: Our cookies are made with the goodness of 7 grains like Oats, Ragi, Quinoa, Corn, Wheat,
+                                        Bengal gram and amaranth. This keeps you full and helps you curb your cravings. No Nasties: These cookies were created from a simple idea: food should taste as good for you with zero compromises. We don’t add preservatives,
+                                        GMO-Free and we don’t use Maida. Comfort Foods For Cravings: Be it breakfast or midnight cravings or post-lunch sweet tooth cravings, our Max Protein Cookie is a sweet treat that you can indulge in without feeling
+                                        guilty. Made In India: Max Protein is the first brand to launch nutrition & protein bars in India. We have created and nurtured protein bars category in Indian Market.</h3>
+                                    <a class="close" onclick="pop7()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/max2.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop8()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>RiteBite Max Protein 7 Grain Breakfast Cookie - Choco Chips, Soft & Chewy</h4>
+                                            <h5> ₹ 408</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box8">
+                                    <h1> RiteBite Max Protein 7 Grain Breakfast Cookie - Choco Chips, Soft & Chewy</h1>
+                                    <h5> <del>₹ 450</del>₹ 408</h5>
+                                    <h3>Clean Indulgence: Indulge in our Max Protein Choco Chips cookies while meeting your diet goals. Each bite only takes you towards your goal. These delicious protein cookies have the right amount of carbs, protein and
+                                        a whole lot of flavour. Committed To Nutrition: Committed to your health and taste buds, we at Max protein ensure nutrition in every bite. Our Protein cookies have 10 gm Protein that equals 2 cups of dal, 4 gm Fibre
+                                        that equals 1 apple, 300 mg Calcium that equals 1 glass of milk. It can’t get better than this. Goodness Of Grains: Our cookies are made with the goodness of 7 grains like Oats, Ragi, Quinoa, Corn, Wheat, Bengal
+                                        gram and amaranth. This keeps you full and helps you curb your cravings. No Nasties: These cookies were created from a simple idea: food should taste as good for you with zero compromises. We don’t add preservatives,
+                                        GMO-Free and we don’t use Maida. Comfort Foods For Cravings: Be it breakfast or midnight cravings or post-lunch sweet tooth cravings, our Max Protein Cookie is a sweet treat that you can indulge in without feeling
+                                        guilty. Made In India: Max Protein is the first brand to launch nutrition & protein bars in India. We have created and nurtured protein bars category in Indian Market.</h3>
+                                    <a class="close" onclick="pop8()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/dark1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop9()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sunfeast Dark Fantasy - Luxuria Choco Fills Biscuits - Cookies</h4>
+                                            <h5> ₹ 60</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box9">
+                                    <h1>Sunfeast Dark Fantasy - Luxuria Choco Fills Biscuits - Cookies</h1>
+                                    <h5> <del>₹ 65</del>₹ 60</h5>
+                                    <h3>Savour the taste of bliss as you bite into the new Sunfeast Dark Fantasy Choco Fills Luxuria. For those who desire more indulgence in every cookie, the sun-baked rich crust enrobes the luscious and smooth chocolate
+                                        in a large sized cookie for a dialed up indulgence.</h3>
+                                    <a class="close" onclick="pop9()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/parle.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop10()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>kutte waala biscuit</h4>
+                                            <h5> ₹ 62</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box10">
+                                    <h1> kutte waala biscuit</h1>
+                                    <h5> <del>₹ 70</del>₹ 62</h5>
+                                    <p3>Filled with the goodness of milk and wheat, Parle-G is a source of all round nourishment. Treat yourself to a pack of yummy Parle-G biscuits to experience what has nurtured and strengthened millions of people for over
+                                        70 years. A meal substitute for some and a tasty and healthy snack for many others. Consumed by some for the value it offers, and many others for its taste. Whatever the occasion, it has always been around as an
+                                        instant source of nourishment.</h3>
+                                        <a class="close" onclick="pop10()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/oreo1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop11()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Cadbury Oreo Creme Biscuit - Vanilla, Original</h4>
+                                            <h5> ₹ 28</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box11">
+                                    <h1>Cadbury Oreo Creme Biscuit - Vanilla, Original</h1>
+                                    <h5> <del>₹ 30</del>₹ 28</h5>
+                                    <h3>Oreo sandwich creme biscuit brings together the rich, smooth taste of vanilla creme filling with the bold taste of two crunchy chocolate wafers. Take a delicious break with an Oreo cookie, the perfect anytime snack.</h3>
+                                    <a class="close" onclick="pop11()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/hide.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop12()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Parle Hide & Seek - Chocolate, 200 g</h4>
+                                            <h5> ₹ 60</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box12">
+                                    <h1>Parle Hide & Seek - Chocolate, 200 g</h1>
+                                    <h5> <del>₹ 70</del>₹ 60</h5>
+                                    <h3>First, of its kind chocolate chip cookies in India, Hide & Seek was launched in 1996 – best known today for its rich chocolaty experience.</h3>
+                                    <a class="close" onclick="pop12()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/marie.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop13()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sunfeast Marie Light Biscuits-Rich Taste</h4>
+                                            <h5> ₹ 20</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box13">
+                                    <h1>Parle Hide & Seek - Chocolate, 200 g</h1>
+                                    <h5>₹ 20</h5>
+                                    <h3>Sunfeast Marie Light with additional Fiber, one of the most excellent biscuits to make you eat importantly and feel light. It improved with the integrity of ordinary wheat Extra fibre. This supreme teatime biscuit is
+                                        completed from the premium quality wheat high in fibre and keeps one light and vigorous through the day. All along with a delicious flavour which tastes best with any drink. It is the most excellent snack to bank
+                                        upon, as along with a feeling of richness it's very strong as well.</h3>
+                                    <a class="close" onclick="pop13()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/nibble.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop14()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Dukes Biscuits - Salted</h4>
+                                            <h5> ₹ 41</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- popup box-->
+                                <div id="box14">
+                                    <h1>Dukes Biscuits - Salted</h1>
+                                    <h5> <del>₹ 50</del>₹ 41</h5>
+                                    <h3>Dukes Salted Cracks Jar contains some significant ingredients which are important for making salt crackers. The majority of the people like salted crackers in entertainment. It is generally thin substance prepared from
+                                        wheat flour, baking soda, yeast, salt and etc.</h3>
+                                    <a class="close" onclick="pop14()">close</a>
+                                </div>
+                                <!-- popup end-->
+                            </div>
+                        </div>
+                        
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <!-- End Shop Page -->
+
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>About Apna Super Baazaar</h4>
+                            <p>We at Apna Super Baazaar are centered around stretching out the offline shopping experience to the online customer at www.apnasuperbaazar.com. Our 'Call and Order' office is accessible everyday between 10 am to 7 pm. We trust
+                                it is the incredible mix of every one of our services and the comfort we give to our clients, which makes them return every time.</p>
+                            <p>We will likely help our clients and their families to appreciate a better life, by spending less, and grinning more! </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: Amity University <br>Greater Noida,<br> Uttar Pradesh,<br>Pin- 201308 </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+918076316649">+91 8076316649</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:bhardwaj.13.gaurav@gmail.com">bhardwaj.13.gaurav@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Social Media</h3>
+                            <p>Let's be a Friend</p>
+                            <ul>
+                                <li><a href="www.facebook.com"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="www.twitter.com"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="www.linkedin.com"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="www.gmail.com"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="cartB.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="../js/jquery.superslides.min.js"></script>
+    <script src="../js/bootstrap-select.js"></script>
+    <script src="../js/inewsticker.js"></script>
+    <script src="../js/bootsnav.js."></script>
+    <script src="../js/images-loded.min.js"></script>
+    <script src="../js/isotope.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/baguetteBox.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/form-validator.min.js"></script>
+    <script src="../js/contact-form-script.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="box-j.js"></script>
+    <script src="olive1.js"></script>
+    <script src="olive2.js"></script>
+    <script src="olive3.js"></script>
+    <script src="olive4.js"></script>
+    <script src="olive5.js"></script>
+    <script src="olive6.js"></script>
+    <script src="olive7.js"></script>
+    <script src="olive8.js"></script>
+    <script src="olive9.js"></script>
+    <script src="olive10.js"></script>
+    <script src="olive11.js"></script>
+    <script src="olive12.js"></script>
+    <script src="olive13.js"></script>
+    <script src="olive14.js"></script>
+
+</body>
+
+</html>

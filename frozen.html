@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>Apna Super Bazaar</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="popup-box.css">
+</head>
+
+<body>
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="logo" alt="" width="220px" height="110px"></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item "><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../about.html">About Us</a></li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link ">Shop</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../login.html">Login / Signup</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <li class="side-menu">
+                    <a href="cart.html">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="badge"></span>
+                        <p>My Cart</p>
+                    </a>
+                </li>
+                <!-- End Atribute Navigation -->
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+
+
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Frozen</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Shop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End All Title Box -->
+
+    <!-- Start Shop Page  -->
+    <div class="shop-box-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9 col-sm-12 col-xs-12 shop-content-right">
+                    <p><a style="margin-left:0px;margin-bottom:35px; font-weight:bolder; font-size:20px" class="btn hvr-hover" href="s&m.html">Back</a></p>
+                    <div class="right-product-box">
+                    </div>
+                </div>
+
+                <div class="product-categorie-box">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/itc.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>ITC Master Chef Classic Aloo Tikki</h4>
+                                            <h5> ₹68</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box">
+                                    <h1>ITC Master Chef Classic Aloo Tikki</h1>
+                                    <h5> <del>₹70</del> ₹68</h5>
+                                    <h3>Delhi’s favourite street food - mazedaar with a crispy bite! Create variety every day by making into a burger, wrap, sandwich or chaat. Aloo tikki is a popular snack across India made using mashed potatoes. This is
+                                        the original and classic variant of the aloo tikki. ITC Master Chef is a high-quality brand and its quality is of a gold standard. It adheres to absolute benchmark and its products are of the highest standards in
+                                        taste and quality.</h3>
+                                    <a class="close" onclick="pop()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/poha.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop1()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Mothers Recipe Mix - Poha</h4>
+                                            <h5> ₹55</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box1">
+                                    <h1>Mothers Recipe Mix - Poha</h1>
+                                    <h5> <del>₹100</del> ₹55</h5>
+                                    <h3>A delicacy of western India, Poha is is an easy-to-cook, nutritious snack made from rice flakes. Prepared using only the freshest ingredients & seasoned for your convenience with mothers magical touch.</h3>
+                                    <a class="close" onclick="pop1()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/french.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop2()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                  
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>ITC Master Chef Crispy French Fries</h4>
+                                            <h5> ₹80</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box2">
+                                    <h1>ITC Master Chef Crispy French Fries</h1>
+                                    <h5> ₹80</h5>
+                                    <h3>Crispy golden fries made from a special variety of potatoes. Sprinkle salt or your favourite masala and enjoy. French fries are loved by kids and adults alike. French fries make snacking look good. ITC Master Chef is
+                                        a high-quality brand and its quality is of a gold standard. It adheres to absolute benchmark and its products are of the highest standards in taste and quality.</h3>
+                                    <a class="close" onclick="pop2()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/dal.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop3()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                  
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>MTR Ready To Eat - Dal Makhani</h4>
+                                            <h5> ₹93</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box3">
+                                    <h1>MTR Ready To Eat - Dal Makhani</h1>
+                                    <h5> <del>₹100</del>₹93</h5>
+                                    <h3>Delicious blend of black lentils simmered in butter to give you a rich flavored, wholesome gravy. A signature delicacy from the Punjab, a favorite all across India but especially the northern states.</h3>
+                                    <a class="close" onclick="pop3()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/pops.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop4()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>ITC Master Chef Mumbai Vada Pops</h4>
+                                            <h5> ₹123</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box4">
+                                    <h1>ITC Master Chef Mumbai Vada Pops</h1>
+                                    <h5> <del>₹150</del>₹123</h5>
+                                    <h3>Authentic Mumbai vada recreated as mini besan coated bites so you can get that spicy, garlicky masti anytime! The Mumbai vada is a vegetarian fast food dish. It originated as street food in Mumbai but is now served
+                                        in food stalls and restaurants across India. It is also called Bombay burger. ITC Master chef is a high-quality brand and its quality is of a gold standard. It adheres to absolute benchmark and its products are
+                                        of the highest standards in taste and quality.</h3>
+                                    <a class="close" onclick="pop4()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/upma.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop5()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Mothers Recipe Instant Mix - Upma</h4>
+                                            <h5> ₹45</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box5">
+                                    <h1>Mothers Recipe Instant Mix - Upma</h1>
+                                    <h5> ₹50</h5>
+                                    <h3>Mothers Recipe Instant Mix - Upma is appreciated by all for its aroma, texture and taste. Upma is good in taste easy in cooking that proves to be a healthy breakfast always and ever.</h3>
+                                    <a class="close" onclick="pop5()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/cury.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop6()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Top Ramen Noodles - Curry Veg</h4>
+                                            <h5> ₹ 60</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box6">
+                                    <h1>Top Ramen Noodles - Curry Veg</h1>
+                                    <h5> <del>₹ 80</del> ₹ 60</h5>
+                                    <h3>Top Ramen, Curry Veg flat noodles make you the double benefit of taste, it comes with the real vegetables added to whole wheat atta noodles and masala. It is healthy with noodles and also unique and tasty. Noodles (85%),
+                                        Wheat flour Edible Vegetable Oil, (Palm), Common Salt, Acidity Regulators (INS 500(i), INS 46%, Antioxidant (INS 319), and Guar Gum.</h3>
+                                    <a class="close" onclick="pop6()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/rava1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop7()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                  
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Aashirvaad Instant Mix - Rava Idli</h4>
+                                            <h5> ₹ 110</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box7">
+                                    <h1>Aashirvaad Instant Mix - Rava Idli</h1>
+                                    <h5> <del>₹ 120 </del> ₹ 110</h5>
+                                    <h3>Nutritious and filling, Aashirvaad Rava Idlis are perfect for breakfasts or an evening snack. The perfect combination of rich ingredients in the rava mix of cashew nuts and tadka, the mix is created in the traditional
+                                        method of slow roasting. The result is a delightful fusion of aromatic, soft and fluffy rava idlis combined with the crunch of roasted dal and delicious cashew nuts. With Aashirvaad Rava Idli Mix, you can prepare
+                                        this dish to perfection and delight your family at any snack time and win everyones heart. This rava idli mix serves the purpose just right for weight watchers and fitness enthusiasts as well.</h3>
+                                    <a class="close" onclick="pop7()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/chicken1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop8()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Kitchens Of India Ready to Eat - Chicken Chettinad</h4>
+                                            <h5> ₹175</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box8">
+                                    <h1>Kitchens Of India Ready to Eat - Chicken Chettinad</h1>
+                                    <h5> <del>₹180</del>₹175</h5>
+                                    <h3>Kitchens of India Ready To Eat - Chicken Chettinad 285 g</h3>
+                                    <a class="close" onclick="pop8()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/cornflakes.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop9()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>PRISTINE Beginnings - Organic Corn Flakes</h4>
+                                            <h5> ₹130</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box9">
+                                    <h1>PRISTINE Beginnings - Organic Corn Flakes</h1>
+                                    <h5> <del>₹150</del>₹130</h5>
+                                    <h3>Beginnings Corn breakfast is packed with the well surprises. Eat with cold or warm milk, this bowl of honesty helps you to kick start your excited day. Corn helps maintain the heart healthy while aiding the stomach
+                                        indigestion. An amazing blend of milk to give calcium and corn for a host of other health benefits, this power filled breakfast works well for weight watchers too.</h3>
+                                    <a class="close" onclick="pop9()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/dosa.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop10()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>MTR Breakfast Mix - Dosa</h4>
+                                            <h5> ₹100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box10">
+                                    <h1>MTR Breakfast Mix - Dosa</h1>
+                                    <h5> <del>₹150</del>₹100</h5>
+                                    <h3>MTR Dosa Breakfast Mix is ready made breakfast cereal that keeps your time and suggests you breakfast with a great flavor. Get pleasure from a strong breakfast in a less time since MTR Dosa Breakfast Mix is ready for
+                                        you to serve a pleasant, crunchy dosas.</h3>
+                                    <a class="close" onclick="pop10()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/chilli.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop11()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sumeru Masala French Fries - Chilli Garlic</h4>
+                                            <h5> ₹125</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box11">
+                                    <h1>Sumeru Masala French Fries - Chilli Garlic</h1>
+                                    <h5> <del>₹130</del>₹125</h5>
+                                    <h3>Sumeru Wassup Masala French Fries Chilli Garlic if you thought French fries were the most excellent thing to occur to you, grow up to Wassup Chilli Garlic Fries. A flavour-filled riot that will delight your flavor buds.</h3>
+                                    <a class="close" onclick="pop11()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/piri.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop12()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sumeru Masala Chicken Pops - Piri Piri</h4>
+                                            <h5> ₹239</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box12">
+                                    <h1>Sumeru Masala Chicken Pops - Piri Piri</h1>
+                                    <h5> <del>₹250</del>₹239</h5>
+                                    <h3>Pops (99.1%), (Chicken Meat (40%), Texturized Soy Protein (30%), Water, Bread Crumbs (15%), ((Wheatflour, yeast, Maize Starch, Improver, Iodised Salt, Paprika Extract (E160C), Turmeric Extract E100(ii) & Acetic Acid)),
+                                        Batter (6%), (Wheat Flour, Wheat Starch, Iodised Salt, Guar Gurn, Maize Starch), Mixed Spices (2%), Iodised Salt, Spice (0.9%), (Iodised Salt, Ground Spices (Chilli, Black Pepper), Garlic, Tamarind, Sugar, Onion,
+                                        Herbs, Acidity Regulators-Citric Acid (E330)).</h3>
+                                    <a class="close" onclick="pop12()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/veg.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop13()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Sumeru Veg Baked Paratha Lasagne</h4>
+                                            <h5> ₹149</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box13">
+                                    <h1>sumeru Veg Baked Paratha Lasagne</h1>
+                                    <h5> <del>₹160</del>₹149</h5>
+                                    <h3>Enjoy the Desi comfort with an Italian Twist. These are layered and shredded savoury parathas mixed with veg kheema and topped molten cheese. These parathas are perfect when you're in the mood to try something new or
+                                        even when you're short of the items to serve at your party.</h3>
+                                    <a class="close" onclick="pop13()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/jamun.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop14()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>Gits Ready Mix - Gulabjamun</h4>
+                                            <h5> ₹91</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box14">
+                                    <h1>Gits Ready Mix - Gulabjamun</h1>
+                                    <h5> <del>₹100</del>₹91</h5>
+                                    <h3>Wheat flour, Skim milk powder, Bakery Shortening (Palmolein oil, Sesame oil), Sodium Bicarbonate (E500(ii)), Citric acid, Permitted anti-oxidants, Bakery shortening used contains trans fat.</h3>
+                                    <a class="close" onclick="pop14()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/idli1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop15()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>MTR Breakfast Mix - Rice Idli</h4>
+                                            <h5> ₹100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box15">
+                                    <h1>MTR Breakfast Mix - Rice Idli</h1>
+                                    <h5> <del>₹150</del>₹100</h5>
+                                    <h3>Soft, fluffy, light-as-airidlis. A delicious traditional break fast ready in an instant. </h3>
+                                    <a class="close" onclick="pop15()">close</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <!-- End Shop Page -->
+
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>About Apna Super Baazaar</h4>
+                            <p>We at Apna Super Baazaar are centered around stretching out the offline shopping experience to the online customer at www.apnasuperbaazar.com. Our 'Call and Order' office is accessible everyday between 10 am to 7 pm. We trust
+                                it is the incredible mix of every one of our services and the comfort we give to our clients, which makes them return every time.</p>
+                            <p>We will likely help our clients and their families to appreciate a better life, by spending less, and grinning more! </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: Amity University <br>Greater Noida,<br> Uttar Pradesh,<br>Pin- 201308 </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+918076316649">+91 8076316649</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:bhardwaj.13.gaurav@gmail.com">bhardwaj.13.gaurav@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Social Media</h3>
+                            <p>Let's be a Friend</p>
+                            <ul>
+                                <li><a href="www.facebook.com"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="www.twitter.com"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="www.linkedin.com"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="www.gmail.com"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="cartF.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="../js/jquery.superslides.min.js"></script>
+    <script src="../js/bootstrap-select.js"></script>
+    <script src="../js/inewsticker.js"></script>
+    <script src="../js/bootsnav.js."></script>
+    <script src="../js/images-loded.min.js"></script>
+    <script src="../js/isotope.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/baguetteBox.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/form-validator.min.js"></script>
+    <script src="../js/contact-form-script.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="box-j.js"></script>
+    <script src="olive1.js"></script>
+    <script src="olive2.js"></script>
+    <script src="olive3.js"></script>
+    <script src="olive4.js"></script>
+    <script src="olive5.js"></script>
+    <script src="olive6.js"></script>
+    <script src="olive7.js"></script>
+    <script src="olive8.js"></script>
+    <script src="olive9.js"></script>
+    <script src="olive10.js"></script>
+    <script src="olive11.js"></script>
+    <script src="olive12.js"></script>
+    <script src="olive13.js"></script>
+    <script src="olive14.js"></script>
+    <script src="olive15.js"></script>
+</body>
+
+</html>

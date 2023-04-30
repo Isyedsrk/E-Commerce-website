@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>Apna Super Bazaar</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="popup-box.css">
+
+</head>
+
+<body>
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="logo" alt="" width="220px" height="110px"></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../about.html">About Us</a></li>
+                        <li class="nav-item active">
+                            <a href="../shop.html" class="nav-link">Shop</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../login.html">Login / Signup</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <li class="side-menu">
+                    <a href="cart.html">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="badge"></span>
+                        <p>My Cart</p>
+                    </a>
+                </li>
+                <!-- End Atribute Navigation -->
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+    </header>
+
+    <!-- End Main Top -->
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Atta / Flour</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Flour</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End All Title Box -->
+
+    <!-- Start Shop Page  -->
+    <div class="shop-box-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9 col-sm-12 col-xs-12 shop-content-right">
+                    <p><a style="margin-left:0px;margin-bottom:35px; font-weight:bolder; font-size:20px" class="btn hvr-hover" href="dailystaples.html">Back</a></p>
+                    <div class="right-product-box">
+                    </div>
+                </div>
+
+                <div class="product-categorie-box">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+                                            <img src="../images/laila atta.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>LAILA-WHOLE WEAT ATTA 2KG</h4>
+                                            <h5> ₹ 100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box">
+                                    <h1>LAILA WHOLE WHEAT ATTA</h1>
+                                    <h5> <del>₹ 150</del> ₹100</h5>
+                                    <h3>This atta is full of nutrition and carbohydrates.</h3>
+                                    <h3>This atta also provides protiens to your body </h3>
+                                    <h3>This atta is very good and can keep you fit and health</h3>
+                                    <a class="close" onclick="pop()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/ashirwad.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop1()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>ASHIRWAD-WHOLE WEAT ATTA 10KG</h4>
+                                            <h5> ₹ 100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box1">
+                                    <h1>ASHIRWAD-WHOLE WHEAT ATTA 10KG</h1>
+                                    <h5> <del>₹ 150</del> ₹100</h5>
+                                    <h3>Aashirvaad is known for its high-quality grains and other products. Aashirvaad, as a brand, believes in bringing the best grains from the country and placing them on your table in a clean, hygienic and high-quality
+                                        package. Aashirvaad Select Atta is also produced in a similar way so that you can enjoy rotis, wraps and paranthas.</h3>
+                                    <a class="close" onclick="pop1()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/sri sri.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop2()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+</ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>SRI SRI-WHOLE WEAT ATTA 5KG</h4>
+                                            <h5> ₹ 60</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box2">
+                                    <h1>SRI SRI WHOLE WHEAT ATTA</h1>
+                                    <h5> <del>₹ 100</del>₹ 60</h5>
+                                    <h3>Sri Sri Tattva brings you Whole Wheat Atta (Flour). Each kernel of wheat used in this atta is picked carefully from farms. It is then cleaned, processed and packed in the most hygienic conditions. Whole wheat atta is
+                                        considered to be a natural source of 300 types of Enzymes, Magnesium and Minerals and since ages it has been an integral part of our daily food. </h3>
+                                    <a class="close" onclick="pop2()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/sooji.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop3()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>SOOJI-GOLDEN HARVEST 9KG</h4>
+                                            <h5> ₹ 80</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box3">
+                                    <h1>SOOJI ATTA</h1>
+                                    <h5> <del>₹ 100</del>₹ 80</h5>
+                                    <h3>Enjoy across India as a sweet delicacy (Kheer or Halwa) for dessert or breakfast or in the form of a salted preparations (Rawa Dosa or Upma), crudely broken wheat in the form of Sooji is also a wealthy source of wheat
+                                        and fibre goodness. And it forms a part of Pro Nature offerings for the same reason.</h3>
+                                    <a class="close" onclick="pop3()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+                                            <img src="../images/maida1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop4()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>MAIDA-SHAKTI BHOG 1KG</h4>
+                                            <h5> ₹ 90</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box4">
+                                    <h1>MAIDA ATTA</h1>
+                                    <h5> <del>₹ 100</del>₹ 90</h5>
+                                    <p>Maida is a wonderful mix of soft and rigid wheat. It is considered as bleached flour that contains less protein compare to unbleached. It is finest for pie crusts, rapid bread, cookies, pancakes and waffles. It is chemical-free.</h3>
+                                        <a class="close" onclick="pop4()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/rice1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop5()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>RICE FLOUR </h4>
+                                            <h5> ₹ 80</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box5">
+                                    <h1>RICE FLOUR ATTA</h1>
+                                    <h5> <del>₹ 100 </del>₹ 80</h5>
+                                    <h3>Rice flour is made from grounded raw rice and is the perfect substitute for wheat flour, which sometimes may trigger irritation in the digestive system. A staple of Southeast Asia, Japan and southern India, rice flour
+                                        is used in several recipes as a thickening agent. It is also the most preferred ingredient for gluten-free baked products as it is has a unique and sandy texture.</h3>
+                                    <a class="close" onclick="pop5()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/besan.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop6()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                    
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>RAJDHANI BESAN 1KG</h4>
+                                            <h5> ₹ 50</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box6">
+                                    <h1>RAJDHANI BESAN ATTA</h1>
+                                    <h5> <del>₹ 100</del>₹ 80</h5>
+                                    <h3>Gram flour or besan, is a light yellow color pulses flour made by grinding chickpea (Bengal gram). It is rich in fiber and nutrients, that can improve heart health, stabilize blood sugar and prevent diabetes. Besan
+                                        is used to make batter for fries like bhajjis, pakodas and vadas. It is also used to make desserts and various kinds of sweet dishes. It can be used as a natural scrub for the skin and is believed to enhance complexion.</h3>
+                                    <a class="close" onclick="pop6()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/daliya1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop7()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>BROKEN WHEAT DALIYA 1KG</h4>
+                                            <h5> ₹ 68</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box7">
+                                    <h1>BROKEN WHEAT DALIA ATTA</h1>
+                                    <h5> <del>₹ 100</del>₹ 80</h5>
+                                    <h3>Broken wheat or cracked wheat or couscous is made by milling whole raw wheat grains. Wheat is cleaned and husked and then processed to the necessary size. It is extremely nutritious as it does not undergo refining.
+                                        When broken wheat is cooked, it has a hearty, warm smell and a lovely, grainy taste. It is faintly nutty and chewy.</h3>
+                                    <a class="close" onclick="pop7()">close</a>
+                                </div>
+                                <!-- popup end-->
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="products-single fix">
+                                        <div class="box-img-hover">
+
+                                            <img src="../images/pathiri1.jpg" class="img-fluid" alt="Image">
+                                            <div class="mask-icon">
+                                                <ul>
+                                                    <li><a id="myBtn" onclick="pop8()" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                   
+                                                </ul>
+                                                <a class="cart" href="#!">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="why-text">
+                                            <h4>PATHIRI PODI 500g</h4>
+                                            <h5> ₹ 53</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popup box-->
+                                <div id="box8">
+                                    <h1>PATHIRI PODI ATTA</h4>
+                                        <h5> <del>₹ 100</del>₹ 80</h5>
+                                        <p>Pathiri is a traditional dish which is exclusive to the palette of the Kerala cuisine. It is a thin rice pancake made of finely ground rice. Pathiri or Pathil is a tasty breakfast/dinner dish, which tastes good
+                                            with especially non-vegetarian accompaniments.</h3>
+                                            <a class="close" onclick="pop8()">close</a>
+                                </div>
+                                <!-- popup end-->
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- End Shop Page -->
+
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>About Apna Super Baazaar</h4>
+                            <p>We at Apna Super Baazaar are centered around stretching out the offline shopping experience to the online customer at www.apnasuperbaazar.com. Our 'Call and Order' office is accessible everyday between 10 am to 7 pm. We trust
+                                it is the incredible mix of every one of our services and the comfort we give to our clients, which makes them return every time.</p>
+                            <p>We will likely help our clients and their families to appreciate a better life, by spending less, and grinning more! </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: Amity University <br>Greater Noida,<br> Uttar Pradesh,<br>Pin- 201308 </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+918076316649">+91 8076316649</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:bhardwaj.13.gaurav@gmail.com">bhardwaj.13.gaurav@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Social Media</h3>
+                            <p>Let's be a Friend</p>
+                            <ul>
+                                <li><a href="www.facebook.com"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="www.twitter.com"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="www.linkedin.com"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="www.gmail.com"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="cartA.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="../js/jquery.superslides.min.js"></script>
+    <script src="../js/bootstrap-select.js"></script>
+    <script src="../js/inewsticker.js"></script>
+    <script src="../js/bootsnav.js."></script>
+    <script src="../js/images-loded.min.js"></script>
+    <script src="../js/isotope.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/baguetteBox.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/form-validator.min.js"></script>
+    <script src="../js/contact-form-script.js"></script>
+    <script src="../js/custom.js"></script>
+    <!--pop js-->
+    <script src="box-j.js"></script>
+    <script src="olive1.js"></script>
+    <script src="olive2.js"></script>
+    <script src="olive3.js"></script>
+    <script src="olive4.js"></script>
+    <script src="olive5.js"></script>
+    <script src="olive6.js"></script>
+    <script src="olive7.js"></script>
+    <script src="olive8.js"></script>
+</body>
+
+</html>
